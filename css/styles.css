@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: darkcyan;
+}
+
+.wrapper {
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: orange;
+	height: 30px;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 5px 15px 0 15px;
+	font-family: 'Arial', sans-serif;
+}
+
+nav li a {
+	color: inherit;
+}
+
+nav li a:hover {
+	color: red;
+}
+
+.hero {
+	width: 100%;
+}
+
+h1, h2, h3 {
+	color: crimson;
+	font-family: Trebuchet, sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+main {
+	width: 70%;
+	float: left;
+	padding: 3em;
+}
+
+aside {
+	padding-top: 3em;
+	width: 30%;
+	float: right;
+}
+
+footer {
+	background-color: #000;
+	color: white;
+	text-align: center;
+	clear: both;
+}
