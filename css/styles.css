@@ -63,3 +63,39 @@ footer {
 	text-align: center;
 	clear: both;
 }
+
+/*Witches Styles*/
+
+.flex-container {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	background-color: seagreen;
+	justify-content: center;
+	justify-content: -webkit-center;
+
+}
+
+.flex-item {
+	background-color: hotpink;
+	width: 30%;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
